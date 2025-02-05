@@ -9,7 +9,7 @@ I'll first go on R1's CLI and check the current interface configurations with th
 <img src="https://i.imgur.com/27dx5fX.png" height="80%" width="80%"/>
 <br />
 <br /> 
-Now I'll remove the sub-interfaces from R1's interface configurations since they won't be needed in the layer 3 connection I'll be implementing. To do this I enter Global Configuration mode and delete the first sub-interface with the command, "no interface g0/0.10". I use the same command as it applies to remove the other sub-interfaces as well: <br/>
+Now I'll remove the sub-interfaces from R1's interface configurations since they won't be needed in the layer 3 connection I'll be implementing. To do this I enter Global Configuration mode and remove the first sub-interface with the command, "no interface g0/0.10". I use the same command as it applies to remove the other sub-interfaces as well: <br/>
 <img src="https://i.imgur.com/VD7RyuQ.png" height="80%" width="80%"/>
 <br />
 <br /> 
